@@ -1,15 +1,19 @@
 # Thesis Template
+
 A LaTeX template and some utilities for your Bachelor/Master thesis.
 The template is specialized for Cognitive Science at Osnabrück University, but could easily be adapted.
 
 ## Usage
+
 Click `Use this template` on the upper right and create your own working copy of the repository.
-Clone and work with your own repository instead of this one. 
+Clone and work with your own repository instead of this one.
 
 ## Installation
+
 To use this template you first of all need to install [Visual Studio Code](https://code.visualstudio.com/).
 
 ### Using Devcontainer
+
 If you have docker on your machine, you can easily write your thesis inside a container
 that has all the necessary software already installed.
 Install the [Remove Development Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
@@ -18,6 +22,7 @@ A new instance of VSCode should open. Open `thesis.txt` and press <kbd>Ctrl</kbd
 to build the latex document.
 
 ### Using Native Installation
+
 First you will need to install LaTeX. Assuming that your machine is running an Ubuntu based distro run in your terminal
 
     sudo apt install texlive-full biber
@@ -26,12 +31,12 @@ If you are on a different distro or operating system you will need to install La
 
 Install the following extensions into VSCode to enable processing of LaTeX documents and spell checking
 
-    	James-Yu.latex-workshop
-		tecosaur.latex-utilities
-        streetsidesoftware.code-spell-checker
-
+    James-Yu.latex-workshop
+    tecosaur.latex-utilities
+    streetsidesoftware.code-spell-checker
 
 ## General Guidelines
+
 * Use American English. Cognitive Science is a discipline originating from the States. Also most research papers are written in American English.
 * Use Latex and to make your life easier this template.
 * Write one sentence per line in your editor.  While `synctex` is able to establish correspondence between the `.tex` document
@@ -50,6 +55,7 @@ Install the following extensions into VSCode to enable processing of LaTeX docum
   you can easily use git to manage your version and even sync them back to GitHub to back them up. 
 
 ## Contributing
+
 Did you find any other resources, practices, instructions, LaTeX macros or VSCode extensions
 that you found helpful for writing a thesis? Feel free to add them and make a pull
-request. 
+request.
