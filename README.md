@@ -2,6 +2,10 @@
 A LaTeX template and some utilities for your Bachelor/Master thesis.
 The template is specialized for Cognitive Science at Osnabrück University, but could easily be adapted.
 
+## Usage
+Click `Use this template` on the upper right and create your own working copy of the repository.
+Clone and work with your own repository instead of this one. 
+
 ## Installation
 To use this template you first of all need to install [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -16,7 +20,7 @@ to build the latex document.
 ### Using Native Installation
 First you will need to install LaTeX. Assuming that your machine is running an Ubuntu based distro run in your terminal
 
-    sudo apt install texlive-full 
+    sudo apt install texlive-full biber
 
 If you are on a different distro or operating system you will need to install LaTeX in a different way.
 
