@@ -7,6 +7,7 @@ The template is specialized for Cognitive Science at Osnabrück University, but 
 
 Click `Use this template` on the upper right and create your own working copy of the repository.
 Clone and work with your own repository instead of this one.
+Finally, give your supervisor access to the newly created repository under `Settings > Collaborators`.
 
 ## Installation
 
