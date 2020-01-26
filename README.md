@@ -46,14 +46,39 @@ Install the following extensions into VSCode to enable processing of LaTeX docum
   Writing only a single sentence per line also makes diffs more readable.
 * Avoid errors early. Spellcheck your writing and put references where they belong.
 * Keep your glossary up to date. Whenever you use and acronym add it to the `acronyms.txt` file.
-* Use a citation manager. [Mendeley](https://www.mendeley.com/) is preferred. 
-  If you have experience with it and want to stay open source you can also use [Zotero](https://www.zotero.org/).
-* Use [`booktabs`](https://inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf) style for your tables. Tables can be conveniently 
+* Use a citation manager. See `Managing Literature` for more information.
+* Use [`booktabs`](https://inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf) style for your tables. Tables can be conveniently
   generated using [Tables Generator](http://www.tablesgenerator.com/latex_tables).
   The style should then be set to `Booktabs table style`.
 * Get familiar with VSCode. https://github.com/Microsoft/vscode-tips-and-tricks is a good starting point.
 * Use git and GitHub to manage your versions. Since `.tex` files are just text documents
-  you can easily use git to manage your version and even sync them back to GitHub to back them up. 
+  you can easily use git to manage your version and even sync them back to GitHub to back them up.
+
+### Managing Literature
+
+A citation manager is key to keep your literature references and citations manageable.
+I personally prefer [Mendeley](https://www.mendeley.com/).
+If you have experience with it and want to stay open source you can also use [Zotero](https://www.zotero.org/).
+
+#### Mendeley
+
+Mendeley has a desktop app, but also a mobile app, which is very useful if you want to read papers on mobile device.
+
+##### Importing Literature
+
+Use the [Mendeley Web Importer](https://www.mendeley.com/reference-management/web-importer) to add papers to your library.
+Once added you need to review the bibliographic metadata in the desktop app.
+
+##### Reading papers
+
+When reading a paper you should at least summarize it in three to four key points in the notes section.
+Moreover, you should highlight important sections in the paper itself. 
+You can use color coding to signify different purposes:
+
+* yellow: important points
+* red: terms you don't understand
+* pink: references you want to add to your collection
+* grey: references you wanted and have added your collection
 
 ## Contributing
 
