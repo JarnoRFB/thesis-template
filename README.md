@@ -17,7 +17,7 @@ To use this template you first of all need to install [Visual Studio Code](https
 
 If you have docker on your machine, you can easily write your thesis inside a container
 that has all the necessary software already installed.
-Install the [Remove Development Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+Install the [Remote Development Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 for VSCode. Then type <kbd>F1</kbd> > `Remote-Containers: Reopen in Container`.
 A new instance of VSCode should open. Open `thesis.txt` and press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>b</kbd>
 to build the latex document.
@@ -69,7 +69,7 @@ Mendeley has a desktop app, but also a mobile app, which is very useful if you w
 Use the [Mendeley Web Importer](https://www.mendeley.com/reference-management/web-importer) to add papers to your library.
 Once added you need to review the bibliographic metadata in the desktop app.
 
-##### Reading papers
+#### Reading papers
 
 When reading a paper you should at least summarize it in three to four key points in the notes section.
 Moreover, you should highlight important sections in the paper itself. 
@@ -78,7 +78,7 @@ You can use color coding to signify different purposes:
 * yellow: important points
 * red: terms you don't understand
 * pink: references you want to add to your collection
-* grey: references you wanted and have added your collection
+* grey: references you wanted and have added to your collection
 
 ## Contributing
 
