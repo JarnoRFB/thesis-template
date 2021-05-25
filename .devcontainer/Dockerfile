@@ -1,10 +1,10 @@
-FROM thomasweise/texlive
+FROM texlive/texlive
 
 ARG uid
 ARG gid
 
 RUN apt-get update \
-    && apt-get install -y bash git vim fish \
+    && apt-get install -y bash git vim fish curl \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
